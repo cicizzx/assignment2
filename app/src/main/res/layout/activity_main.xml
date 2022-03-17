@@ -9,6 +9,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.myapplication2048.MainActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restart"
+        android:id="@+id/btn_result"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:textColor="#EEE4DA"
+        android:layout_centerInParent="true"
+        android:padding="10dp"/>
+
 
     <com.example.myapplication2048.Game2048Layout
         android:id="@+id/id_game2048"
@@ -40,17 +52,7 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="restart"
-        android:id="@+id/btn_result"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/linearLayout"
-        android:layout_alignEnd="@+id/linearLayout"
-        android:textColor="#EEE4DA"
-        android:layout_centerInParent="true"
-        android:padding="10dp"/>
+
 
 
 </RelativeLayout>
